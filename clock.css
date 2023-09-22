@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 16px;
+}
+body{
+    width: 400px;
+    margin: 0 auto;
+    height: auto;
+    padding: 30px;
+}
+h1{
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+main{
+    background: url("bg-animal.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+main .sect-date{
+    width: 320px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+    font-size: 5px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    background-color: rgba(3, 106, 10, 0.8);
+}
+main .sect-date .date{
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    margin-right: 10px;
+}
+main .sect-date .date2{
+    font-size: 23px;
+}
+main .sect-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.digit{
+    margin: 0 10px;
+    text-align: center;
+    color: white;
+}
+.hour-digit, .min-digit, .second-digit{
+    font-size: 35px;
+    padding: 10px;
+    color: white;
+    background: rgba(128, 0, 128, 0.3);
+    background-size: cover;
+
+}
+.hour-word, .min-word, .second-word{
+    background-color: purple;
+    font-size: 20px;
+}
+#ampm{
+    color: white;
+    text-transform: uppercase;
+    background-color: green;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    padding: 0 3px;
+    right: -30px;
+}
